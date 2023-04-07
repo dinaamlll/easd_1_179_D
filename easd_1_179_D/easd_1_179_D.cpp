@@ -17,5 +17,9 @@ void input() {
 		cout << "Masukkan panjang element array :";
 		cin >> n;
 
+		if (n <= 99)
+			break;
+		else
+			
 	}
 }
