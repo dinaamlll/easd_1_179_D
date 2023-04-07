@@ -77,4 +77,22 @@ Algorithm(low, DA - 1);
 Algorithm(DA+ 1, high);
 
 }
+void Display() {
+	cout << "\n====================" << endl;
+	cout << "\nArray yang terususun" << endl;
+	cout << "\n====================" << endl;
 
+	for (int i = 0; i < n; i++) {
+		cout << dina[i] << " " << endl;
+	}
+	cout << "\n\nJumlah data yang dibandingkan : " << cmp_count << endl;
+	cout << "Jumlah data yang berpindah : " << mov_count << endl;
+}
+
+int main() {
+	Input();
+	Algorithm(0, n - 1);
+	Display();
+
+	return 0;
+}
