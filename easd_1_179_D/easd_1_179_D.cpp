@@ -1,20 +1,14 @@
-// easd_1_179_D.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//1. Karena algoritma membantu dalam menulis program yang sesuai, membantu dalam menyelesaikan masalah yang sulit menjadi serangkaian masalah kecil yang dapat dipecahkan, dan dapat menjadikan pengambilan keputusan sebagai proses yang lebih rasional
+//2. Statis dan dinamis. Contoh statis adalah array dan  contoh dinamis adalah linked list
+//3. Kecepatan mesin, Penyusun, Sistem operasi, Bahasa pemrograman, Ukuran input
+//4. Algoritma quicksort. 
+//5. Quadratic : Bubble sort, Selection sort, Insertion sort, Selection sort, Shell sort. Loglinear : Quicksort dan Mergesort
 
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+int DA[99];
+int cmp_count = 0;
+int mov_count = 0;
+int n;
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
