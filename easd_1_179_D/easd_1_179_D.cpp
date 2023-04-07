@@ -61,4 +61,20 @@ while (i <= DA) {
 		cmp_count++;
 	}
 }
+cmp_count++;
+if (i < DA) {
+
+	swap(i, DA;
+	mov_count++;
+}
+if (low < DA) {
+
+	swap(low, DA);
+	mov_count++;
+}
+Algorithm(low, DA - 1);
+
+Algorithm(DA+ 1, high);
+
+}
 
