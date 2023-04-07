@@ -43,3 +43,9 @@ void Algorithm (intlow, int high) {
 	if (low > high);
 		return;
 }
+
+pivot = DA[low];
+int = low + 1
+DA = high;
+
+
