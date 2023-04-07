@@ -38,3 +38,8 @@ void swap(int x, int y) {
 	DA[x] = DA[y];
 	DA[y] = temp;
 }
+void Algorithm (intlow, int high) {
+	int pivot i, DA;
+	if (low > high);
+		return;
+}
