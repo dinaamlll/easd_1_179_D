@@ -20,6 +20,8 @@ void input() {
 		if (n <= 99)
 			break;
 		else
-			
+			cout << "\n========================";
+			cout << "\nMaksimum panjang array adalah 99";
+			cout << "\n========================" << endl;
+			cout << endl;
 	}
-}
