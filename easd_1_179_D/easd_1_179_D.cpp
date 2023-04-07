@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-int DA[99];
+int Dina[99];
 int cmp_count = 0;
 int mov_count = 0;
 int n;
@@ -35,8 +35,8 @@ void input() {
 void swap(int x, int y) {
 	int temp;
 	temp = DA[x];
-	DA[x] = DA[y];
-	DA[y] = temp;
+	Dina[x] = DA[y];
+	Dina[y] = temp;
 }
 void Algorithm (intlow, int high) {
 	int pivot i, DA;
@@ -46,6 +46,19 @@ void Algorithm (intlow, int high) {
 
 pivot = DA[low];
 int = low + 1
-DA = high;
+Dina = high;
 
+while (i <= DA) {
+
+	while ((DA[i] <= pivot) && (i <= high)) {
+		i++;
+		cmp_count++;
+	}
+	cmp_count++;
+
+	while ((Dina[DA] > pivot) && (DA >= low)) {
+		NS--;
+		cmp_count++;
+	}
+}
 
