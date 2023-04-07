@@ -30,5 +30,11 @@ void input() {
 	for (int i = 0; i < n; i++) {
 		cout << (i + 1) << " :";
 		cin >> DA[i];
-
+		}	
 	}
+void swap(int x, int y) {
+	int temp;
+	temp = DA[x];
+	DA[x] = DA[y];
+	DA[y] = temp;
+}
